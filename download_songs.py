@@ -16,7 +16,6 @@ def get_all_tracks(sp):
             results = sp.next(results)
         else:
             results = None
-            sp.
     all_tracks = {}
     # for offset in range(0, 500, 100):
     for key, value in playlists.items():
